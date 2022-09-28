@@ -638,6 +638,92 @@ export const cartData = [
         category: 'Food Item',
         price: '$190',
     },
+    {
+        image:
+            product9,
+        name: 'Red color candy',
+        category: 'Food Item',
+        price: '$190',
+    },
+    {
+        image:
+            product10,
+        name: 'Red color candy',
+        category: 'Food Item',
+        price: '$190',
+    },
+    {
+        image:
+            product11,
+        name: 'Red color candy',
+        category: 'Food Item',
+        price: '$190',
+    },
+    {
+        image:
+            product13,
+        name: 'Red color candy',
+        category: 'Food Item',
+        price: '$190',
+    },
+    {
+        image:
+            product12,
+        name: 'Red color candy',
+        category: 'Food Item',
+        price: '$190',
+    },
+    {
+        image:
+            product14,
+        name: 'Red color candy',
+        category: 'Food Item',
+        price: '$190',
+    },
+    {
+        image:
+            product16,
+        name: 'Red color candy',
+        category: 'Food Item',
+        price: '$190',
+    },
+    {
+        image:
+            product15,
+        name: 'Red color candy',
+        category: 'Food Item',
+        price: '$190',
+    },
+    {
+        image:
+            product18,
+        name: 'Red color candy',
+        category: 'Food Item',
+        price: '$190',
+    },
+    {
+        image:
+            product20,
+        name: 'Red color candy',
+        category: 'Food Item',
+        price: '$190',
+    },
+    },
+    {
+        image:
+            product22,
+        name: 'Red color candy',
+        category: 'Food Item',
+        price: '$190',
+    },
+    },
+    {
+        image:
+            product24,
+        name: 'Red color candy',
+        category: 'Food Item',
+        price: '$190',
+    },
 ];
 
 export const chatData = [
@@ -650,10 +736,66 @@ export const chatData = [
     },
     {
         image:
+            avatar7,
+        message: 'Roman Joined the Team!',
+        desc: 'Congratulate him',
+        time: '9:08 AM',
+    },
+    {
+        image:
+            avatar5,
+        message: 'Roman Joined the Team!',
+        desc: 'Congratulate him',
+        time: '9:08 AM',
+    },
+    {
+        image:
+            avatar4,
+        message: 'Roman Joined the Team!',
+        desc: 'Congratulate him',
+        time: '9:08 AM',
+    },
+    {
+        image:
+            avatar6,
+        message: 'Roman Joined the Team!',
+        desc: 'Congratulate him',
+        time: '9:08 AM',
+    },
+    {
+        image:
             avatar3,
         message: 'New message received',
         desc: 'Salma sent you new message',
         time: '11:56 AM',
+    },
+    {
+        image:
+            avatar4,
+        message: 'New Payment received',
+        desc: 'Check your earnings',
+        time: '4:39 AM',
+    },
+    {
+        image:
+            avatar4,
+        message: 'New Payment received',
+        desc: 'Check your earnings',
+        time: '4:39 AM',
+    },
+    {
+        image:
+            avatar6,
+        message: 'New Payment received',
+        desc: 'Check your earnings',
+        time: '4:39 AM',
+    },
+    {
+        image:
+            avatar3,
+        message: 'New Payment received',
+        desc: 'Check your earnings',
+        time: '4:39 AM',
     },
     {
         image:
@@ -682,6 +824,41 @@ export const chatData = [
         message: 'Johnie leave the meeting',
         desc: 'Give him the feedbacks',
         time: '5:12 PM',
+    },
+    {
+        image:
+            avatar7,
+        message: 'Stephen completed tasks',
+        desc: 'Assign him new tasks',
+        time: '9:12 AM',
+    },
+    {
+        image:
+            avatar7,
+        message: 'Stephen completed tasks',
+        desc: 'Assign him new tasks',
+        time: '9:12 AM',
+    },
+    {
+        image:
+            avatar7,
+        message: 'Stephen completed tasks',
+        desc: 'Assign him new tasks',
+        time: '9:12 AM',
+    },
+    {
+        image:
+            avatar4,
+        message: 'Stephen completed tasks',
+        desc: 'Assign him new tasks',
+        time: '9:12 AM',
+    },
+    {
+        image:
+            avatar5,
+        message: 'Stephen completed tasks',
+        desc: 'Assign him new tasks',
+        time: '9:12 AM',
     },
     {
         image:
@@ -823,6 +1000,141 @@ export const productsPerformance = [
     {
         image:
             product6,
+        title: 'Is it good butterscotch ice-cream?',
+        desc: 'Ice-Cream, Milk, Powder',
+        rating: 'Good',
+        itemSold: '65%',
+        earningAmount: '$546,000',
+    },
+    {
+        image:
+            product7,
+        title: 'Is it good butterscotch ice-cream?',
+        desc: 'Ice-Cream, Milk, Powder',
+        rating: 'Good',
+        itemSold: '65%',
+        earningAmount: '$546,000',
+    },
+    {
+        image:
+            product17,
+        title: 'Is it good butterscotch ice-cream?',
+        desc: 'Ice-Cream, Milk, Powder',
+        rating: 'Good',
+        itemSold: '65%',
+        earningAmount: '$546,000',
+    },
+    {
+        image:
+            product8,
+        title: 'Is it good butterscotch ice-cream?',
+        desc: 'Ice-Cream, Milk, Powder',
+        rating: 'Good',
+        itemSold: '65%',
+        earningAmount: '$546,000',
+    },
+    {
+        image:
+            product15,
+        title: 'Is it good butterscotch ice-cream?',
+        desc: 'Ice-Cream, Milk, Powder',
+        rating: 'Good',
+        itemSold: '65%',
+        earningAmount: '$546,000',
+    },
+    {
+        image:
+            product23,
+        title: 'Is it good butterscotch ice-cream?',
+        desc: 'Ice-Cream, Milk, Powder',
+        rating: 'Good',
+        itemSold: '65%',
+        earningAmount: '$546,000',
+    },
+    {
+        image:
+            product22,
+        title: 'Is it good butterscotch ice-cream?',
+        desc: 'Ice-Cream, Milk, Powder',
+        rating: 'Good',
+        itemSold: '65%',
+        earningAmount: '$546,000',
+    },
+    {
+        image:
+            product19,
+        title: 'Is it good butterscotch ice-cream?',
+        desc: 'Ice-Cream, Milk, Powder',
+        rating: 'Good',
+        itemSold: '65%',
+        earningAmount: '$546,000',
+    },
+    {
+        image:
+            product5,
+        title: 'Is it good butterscotch ice-cream?',
+        desc: 'Ice-Cream, Milk, Powder',
+        rating: 'Good',
+        itemSold: '65%',
+        earningAmount: '$546,000',
+    },
+    {
+        image:
+            product5,
+        title: 'Is it good butterscotch ice-cream?',
+        desc: 'Ice-Cream, Milk, Powder',
+        rating: 'Good',
+        itemSold: '65%',
+        earningAmount: '$546,000',
+    },
+    {
+        image:
+            product5,
+        title: 'Is it good butterscotch ice-cream?',
+        desc: 'Ice-Cream, Milk, Powder',
+        rating: 'Good',
+        itemSold: '65%',
+        earningAmount: '$546,000',
+    },
+    {
+        image:
+            product5,
+        title: 'Is it good butterscotch ice-cream?',
+        desc: 'Ice-Cream, Milk, Powder',
+        rating: 'Good',
+        itemSold: '65%',
+        earningAmount: '$546,000',
+    },
+    {
+        image:
+            product5,
+        title: 'Is it good butterscotch ice-cream?',
+        desc: 'Ice-Cream, Milk, Powder',
+        rating: 'Good',
+        itemSold: '65%',
+        earningAmount: '$546,000',
+    },
+    {
+        image:
+            product5,
+        title: 'Is it good butterscotch ice-cream?',
+        desc: 'Ice-Cream, Milk, Powder',
+        rating: 'Good',
+        itemSold: '65%',
+        earningAmount: '$546,000',
+    },
+    {
+        image:
+            product5,
+        title: 'Is it good butterscotch ice-cream?',
+        desc: 'Ice-Cream, Milk, Powder',
+        rating: 'Good',
+        itemSold: '65%',
+        earningAmount: '$546,000',
+    },
+    {
+        image:
+            product6,
         title: 'Supreme fresh tomato available',
         desc: 'Market, Mall',
         rating: 'Excellent',
@@ -841,6 +1153,150 @@ export const productsPerformance = [
     {
         image:
             product4,
+        title: 'Stylish night lamp for night',
+        desc: 'Electric, Wire, Current',
+        rating: 'Poor',
+        itemSold: '23%',
+        earningAmount: '$123,000',
+    },
+    {
+        image:
+            product8,
+        title: 'Stylish night lamp for night',
+        desc: 'Electric, Wire, Current',
+        rating: 'Poor',
+        itemSold: '23%',
+        earningAmount: '$123,000',
+    },
+    {
+        image:
+            product9,
+        title: 'Stylish night lamp for night',
+        desc: 'Electric, Wire, Current',
+        rating: 'Poor',
+        itemSold: '23%',
+        earningAmount: '$123,000',
+    },
+    {
+        image:
+            product10,
+        title: 'Stylish night lamp for night',
+        desc: 'Electric, Wire, Current',
+        rating: 'Poor',
+        itemSold: '23%',
+        earningAmount: '$123,000',
+    },
+    {
+        image:
+            product14,
+        title: 'Stylish night lamp for night',
+        desc: 'Electric, Wire, Current',
+        rating: 'Poor',
+        itemSold: '23%',
+        earningAmount: '$123,000',
+    },
+    {
+        image:
+            product11,
+        title: 'Stylish night lamp for night',
+        desc: 'Electric, Wire, Current',
+        rating: 'Poor',
+        itemSold: '23%',
+        earningAmount: '$123,000',
+    },
+    {
+        image:
+            product12,
+        title: 'Stylish night lamp for night',
+        desc: 'Electric, Wire, Current',
+        rating: 'Poor',
+        itemSold: '23%',
+        earningAmount: '$123,000',
+    },
+    {
+        image:
+            product13,
+        title: 'Stylish night lamp for night',
+        desc: 'Electric, Wire, Current',
+        rating: 'Poor',
+        itemSold: '23%',
+        earningAmount: '$123,000',
+    },
+    {
+        image:
+            product15,
+        title: 'Stylish night lamp for night',
+        desc: 'Electric, Wire, Current',
+        rating: 'Poor',
+        itemSold: '23%',
+        earningAmount: '$123,000',
+    },
+    {
+        image:
+            product17,
+        title: 'Stylish night lamp for night',
+        desc: 'Electric, Wire, Current',
+        rating: 'Poor',
+        itemSold: '23%',
+        earningAmount: '$123,000',
+    },
+    {
+        image:
+            product16,
+        title: 'Stylish night lamp for night',
+        desc: 'Electric, Wire, Current',
+        rating: 'Poor',
+        itemSold: '23%',
+        earningAmount: '$123,000',
+    },
+    {
+        image:
+            product18,
+        title: 'Stylish night lamp for night',
+        desc: 'Electric, Wire, Current',
+        rating: 'Poor',
+        itemSold: '23%',
+        earningAmount: '$123,000',
+    },
+    {
+        image:
+            product19,
+        title: 'Stylish night lamp for night',
+        desc: 'Electric, Wire, Current',
+        rating: 'Poor',
+        itemSold: '23%',
+        earningAmount: '$123,000',
+    },
+    {
+        image:
+            product20,
+        title: 'Stylish night lamp for night',
+        desc: 'Electric, Wire, Current',
+        rating: 'Poor',
+        itemSold: '23%',
+        earningAmount: '$123,000',
+    },
+    {
+        image:
+            product23,
+        title: 'Stylish night lamp for night',
+        desc: 'Electric, Wire, Current',
+        rating: 'Poor',
+        itemSold: '23%',
+        earningAmount: '$123,000',
+    },
+    {
+        image:
+            product21,
+        title: 'Stylish night lamp for night',
+        desc: 'Electric, Wire, Current',
+        rating: 'Poor',
+        itemSold: '23%',
+        earningAmount: '$123,000',
+    },
+    {
+        image:
+            product20,
         title: 'Stylish night lamp for night',
         desc: 'Electric, Wire, Current',
         rating: 'Poor',
@@ -2312,7 +2768,152 @@ export const ordersData = [
         Status: 'pending',
         StatusBg: '#FB9678',
         ProductImage:
-            'https://cdn.shopclues.com/images1/thumbnails/104158/320/320/148648730-104158193-1592481791.jpg',
+        product1,
+        },
+    {
+        OrderID: 874534,
+        CustomerName: 'Danai',
+        TotalAmount: 122.99,
+        OrderItems: 'Watch',,
+
+        Location: 'USA',
+        Status: 'canceled',
+        StatusBg: '#FF5C8E',
+        ProductImage:
+            product8,
+            },
+    {
+        OrderID: 384892,
+        CustomerName: 'Miron',
+        TotalAmount: 87.99,
+        OrderItems: 'Ice Cream',
+        Location: 'USA',
+        Status: 'active',
+        StatusBg: '#03C9D7',
+        ProductImage:
+            product9,
+            },
+    {
+        OrderID: 245462,
+        CustomerName: 'Frank',
+        TotalAmount: 84.99,
+        OrderItems: 'Pan Cake',
+        Location: 'Delhi',
+        Status: 'complete',
+        StatusBg: '#8BE78B',
+        ProductImage:
+            product10,
+            },
+    {
+        OrderID: 874534,
+        CustomerName: 'Danai',
+        TotalAmount: 122.99,
+        OrderItems: 'Watch',
+        Location: 'USA',
+        Status: 'canceled',
+        StatusBg: '#FF5C8E',
+        ProductImage:
+                product11 ,
+               },
+    {
+        OrderID: 910248,
+        CustomerName: 'Vinet',
+
+        TotalAmount: 32.38,
+        OrderItems: 'Fresh Tomato',
+        Location: 'USA',
+        Status: 'pending',
+        StatusBg: '#FB9678',
+        ProductImage:
+            product6,
+    },
+    {
+        OrderID: 345653,
+        CustomerName: 'Carson Darrin',
+        TotalAmount: 56.34,
+        OrderItems: 'Butter Scotch',
+        Location: 'Delhi',
+        Status: 'complete',
+        StatusBg: '#8BE78B',
+        ProductImage:
+            product5,
+    },
+    {
+        OrderID: 390457,
+        CustomerName: 'Fran Perez',
+        TotalAmount: 93.31,
+        OrderItems: 'Candy Gucci',
+        Location: 'New York',
+        Status: 'active',
+        StatusBg: '#03C9D7',
+        ProductImage:
+            product12,
+    },
+    {
+        OrderID: 893486,
+        CustomerName: 'Anika Viseer',
+        TotalAmount: 93.31,
+        OrderItems: 'Night Lamp',
+        Location: 'Germany',
+        Status: 'canceled',
+        StatusBg: '#FF5C8E',
+        ProductImage:
+            product4,
+    },
+    {
+        OrderID: 748975,
+        CustomerName: 'Miron Vitold',
+        TotalAmount: 23.99,
+        OrderItems: 'Healthcare Erbology',
+        Location: 'Spain',
+        Status: 'Returned',
+        StatusBg: 'red',
+        ProductImage:
+            product1,
+    },
+    {
+        OrderID: 194757,
+        CustomerName: 'Omar Darobe',
+        TotalAmount: 95.99,
+        OrderItems: 'Makeup Lancome Rouge',
+        Location: 'USA',
+        Status: 'canceled',
+        StatusBg: '#FF5C8E',
+        ProductImage:
+            product2,
+    },
+    {
+        OrderID: 944895,
+        CustomerName: 'Lulia albu',
+        TotalAmount: 17.99,
+        OrderItems: 'Skincare',
+        Location: 'USA',
+        Status: 'active',
+        StatusBg: '#03C9D7',
+        ProductImage:
+            product3,
+    },
+    {
+        OrderID: 845954,
+        CustomerName: 'Penjani',
+        TotalAmount: 59.99,
+        OrderItems: 'Headphone',
+        Location: 'USA',
+        Status: 'complete',
+        StatusBg: '#8BE78B',
+        ProductImage:
+            product4,
+    },
+    {
+        OrderID: 845954,
+        CustomerName: 'Jie Yan',
+        TotalAmount: 87.99,
+        OrderItems: 'Shoes',
+        Location: 'USA',
+        Status: 'pending',
+        StatusBg: '#FB9678',
+        ProductImage:
+                product12,
     },
     {
         OrderID: 874534,
@@ -2323,7 +2924,7 @@ export const ordersData = [
         Status: 'canceled',
         StatusBg: '#FF5C8E',
         ProductImage:
-            'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pop-womens-garmin-watches-1641919013.jpg?crop=0.502xw:1.00xh;0.250xw,0&resize=640:*',
+                product13,
     },
     {
         OrderID: 384892,
@@ -2334,7 +2935,7 @@ export const ordersData = [
         Status: 'active',
         StatusBg: '#03C9D7',
         ProductImage:
-            'https://images.immediate.co.uk/production/volatile/sites/30/2020/08/dairy-free-ice-cream-eae372d.jpg',
+                product14,
     },
     {
         OrderID: 245462,
@@ -2345,7 +2946,7 @@ export const ordersData = [
         Status: 'complete',
         StatusBg: '#8BE78B',
         ProductImage:
-            'https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80',
+            product15,
     },
     {
         OrderID: 874534,
@@ -2356,12 +2957,11 @@ export const ordersData = [
         Status: 'canceled',
         StatusBg: '#FF5C8E',
         ProductImage:
-            'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pop-womens-garmin-watches-1641919013.jpg?crop=0.502xw:1.00xh;0.250xw,0&resize=640:*',
+                product16,
     },
     {
         OrderID: 910248,
         CustomerName: 'Vinet',
-
         TotalAmount: 32.38,
         OrderItems: 'Fresh Tomato',
         Location: 'USA',
@@ -2456,7 +3056,7 @@ export const ordersData = [
         Status: 'pending',
         StatusBg: '#FB9678',
         ProductImage:
-            'https://cdn.shopclues.com/images1/thumbnails/104158/320/320/148648730-104158193-1592481791.jpg',
+                product13
     },
     {
         OrderID: 874534,
@@ -2467,7 +3067,7 @@ export const ordersData = [
         Status: 'canceled',
         StatusBg: '#FF5C8E',
         ProductImage:
-            'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pop-womens-garmin-watches-1641919013.jpg?crop=0.502xw:1.00xh;0.250xw,0&resize=640:*',
+                product17
     },
     {
         OrderID: 384892,
@@ -2478,7 +3078,7 @@ export const ordersData = [
         Status: 'active',
         StatusBg: '#03C9D7',
         ProductImage:
-            'https://images.immediate.co.uk/production/volatile/sites/30/2020/08/dairy-free-ice-cream-eae372d.jpg',
+                product18,
     },
     {
         OrderID: 245462,
@@ -2489,7 +3089,7 @@ export const ordersData = [
         Status: 'complete',
         StatusBg: '#8BE78B',
         ProductImage:
-            'https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80',
+                product19,
     },
     {
         OrderID: 874534,
@@ -2500,12 +3100,156 @@ export const ordersData = [
         Status: 'canceled',
         StatusBg: '#FF5C8E',
         ProductImage:
-            'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pop-womens-garmin-watches-1641919013.jpg?crop=0.502xw:1.00xh;0.250xw,0&resize=640:*',
+                product20,
+
     },
     {
         OrderID: 910248,
         CustomerName: 'Vinet',
-
+        TotalAmount: 32.38,
+        OrderItems: 'Fresh Tomato',
+        Location: 'USA',
+        Status: 'pending',
+        StatusBg: '#FB9678',
+        ProductImage:
+            product16,
+    },
+    {
+        OrderID: 345653,
+        CustomerName: 'Carson Darrin',
+        TotalAmount: 56.34,
+        OrderItems: 'Butter Scotch',
+        Location: 'Delhi',
+        Status: 'complete',
+        StatusBg: '#8BE78B',
+        ProductImage:
+            product5,
+    },
+    {
+        OrderID: 390457,
+        CustomerName: 'Fran Perez',
+        TotalAmount: 93.31,
+        OrderItems: 'Candy Gucci',
+        Location: 'New York',
+        Status: 'active',
+        StatusBg: '#03C9D7',
+        ProductImage:
+            product7,
+    },
+    {
+        OrderID: 893486,
+        CustomerName: 'Anika Viseer',
+        TotalAmount: 93.31,
+        OrderItems: 'Night Lamp',
+        Location: 'Germany',
+        Status: 'canceled',
+        StatusBg: '#FF5C8E',
+        ProductImage:
+            product4,
+    },
+    {
+        OrderID: 748975,
+        CustomerName: 'Miron Vitold',
+        TotalAmount: 23.99,
+        OrderItems: 'Healthcare Erbology',
+        Location: 'Spain',
+        Status: 'Returned',
+        StatusBg: 'red',
+        ProductImage:
+            product1,
+    },
+    {
+        OrderID: 194757,
+        CustomerName: 'Omar Darobe',
+        TotalAmount: 95.99,
+        OrderItems: 'Makeup Lancome Rouge',
+        Location: 'USA',
+        Status: 'canceled',
+        StatusBg: '#FF5C8E',
+        ProductImage:
+            product2,
+    },
+    {
+        OrderID: 944895,
+        CustomerName: 'Lulia albu',
+        TotalAmount: 17.99,
+        OrderItems: 'Skincare',
+        Location: 'USA',
+        Status: 'active',
+        StatusBg: '#03C9D7',
+        ProductImage:
+            product3,
+    },
+    {
+        OrderID: 845954,
+        CustomerName: 'Penjani',
+        TotalAmount: 59.99,
+        OrderItems: 'Headphone',
+        Location: 'USA',
+        Status: 'complete',
+        StatusBg: '#8BE78B',
+        ProductImage:
+            product4,
+    },
+    {
+        OrderID: 845954,
+        CustomerName: 'Jie Yan',
+        TotalAmount: 87.99,
+        OrderItems: 'Shoes',
+        Location: 'USA',
+        Status: 'pending',
+        StatusBg: '#FB9678',
+        ProductImage:
+        product18,
+                product21,
+    },
+    {
+        OrderID: 874534,
+        CustomerName: 'Danai',
+        TotalAmount: 122.99,
+        OrderItems: 'Watch',
+        Location: 'USA',
+        Status: 'canceled',
+        StatusBg: '#FF5C8E',
+        ProductImage:
+                    product23,
+    },
+    {
+        OrderID: 384892,
+        CustomerName: 'Miron',
+        TotalAmount: 87.99,
+        OrderItems: 'Ice Cream',
+        Location: 'USA',
+        Status: 'active',
+        StatusBg: '#03C9D7',
+        ProductImage:
+                product24,
+    },
+    {
+        OrderID: 245462,
+        CustomerName: 'Frank',
+        TotalAmount: 84.99,
+        OrderItems: 'Pan Cake',
+        Location: 'Delhi',
+        Status: 'complete',
+        StatusBg: '#8BE78B',
+        ProductImage:
+                product24,
+    },
+    {
+        OrderID: 874534,
+        CustomerName: 'Danai',
+        TotalAmount: 122.99,
+        OrderItems: 'Watch',
+        Location: 'USA',
+        Status: 'canceled',
+        StatusBg: '#FF5C8E',
+        ProductImage:
+                product16
+    },
+    {
+        OrderID: 910248,
+        CustomerName: 'Vinet',
         TotalAmount: 32.38,
         OrderItems: 'Fresh Tomato',
         Location: 'USA',
@@ -2600,7 +3344,7 @@ export const ordersData = [
         Status: 'pending',
         StatusBg: '#FB9678',
         ProductImage:
-            'https://cdn.shopclues.com/images1/thumbnails/104158/320/320/148648730-104158193-1592481791.jpg',
+                product19,
     },
     {
         OrderID: 874534,
@@ -2611,7 +3355,7 @@ export const ordersData = [
         Status: 'canceled',
         StatusBg: '#FF5C8E',
         ProductImage:
-            'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pop-womens-garmin-watches-1641919013.jpg?crop=0.502xw:1.00xh;0.250xw,0&resize=640:*',
+                product2,
     },
     {
         OrderID: 384892,
@@ -2622,7 +3366,7 @@ export const ordersData = [
         Status: 'active',
         StatusBg: '#03C9D7',
         ProductImage:
-            'https://images.immediate.co.uk/production/volatile/sites/30/2020/08/dairy-free-ice-cream-eae372d.jpg',
+                product21,
     },
     {
         OrderID: 245462,
@@ -2633,7 +3377,7 @@ export const ordersData = [
         Status: 'complete',
         StatusBg: '#8BE78B',
         ProductImage:
-            'https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80',
+            product22,
     },
     {
         OrderID: 874534,
@@ -2644,107 +3388,7 @@ export const ordersData = [
         Status: 'canceled',
         StatusBg: '#FF5C8E',
         ProductImage:
-            'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pop-womens-garmin-watches-1641919013.jpg?crop=0.502xw:1.00xh;0.250xw,0&resize=640:*',
-    },
-    {
-        OrderID: 910248,
-        CustomerName: 'Vinet',
-
-        TotalAmount: 32.38,
-        OrderItems: 'Fresh Tomato',
-        Location: 'USA',
-        Status: 'pending',
-        StatusBg: '#FB9678',
-        ProductImage:
-            product6,
-    },
-    {
-        OrderID: 345653,
-        CustomerName: 'Carson Darrin',
-        TotalAmount: 56.34,
-        OrderItems: 'Butter Scotch',
-        Location: 'Delhi',
-        Status: 'complete',
-        StatusBg: '#8BE78B',
-        ProductImage:
-            product5,
-    },
-    {
-        OrderID: 390457,
-        CustomerName: 'Fran Perez',
-        TotalAmount: 93.31,
-        OrderItems: 'Candy Gucci',
-        Location: 'New York',
-        Status: 'active',
-        StatusBg: '#03C9D7',
-        ProductImage:
-            product7,
-    },
-    {
-        OrderID: 893486,
-        CustomerName: 'Anika Viseer',
-        TotalAmount: 93.31,
-        OrderItems: 'Night Lamp',
-        Location: 'Germany',
-        Status: 'canceled',
-        StatusBg: '#FF5C8E',
-        ProductImage:
-            product4,
-    },
-    {
-        OrderID: 748975,
-        CustomerName: 'Miron Vitold',
-        TotalAmount: 23.99,
-        OrderItems: 'Healthcare Erbology',
-        Location: 'Spain',
-        Status: 'Returned',
-        StatusBg: 'red',
-        ProductImage:
-            product1,
-    },
-    {
-        OrderID: 194757,
-        CustomerName: 'Omar Darobe',
-        TotalAmount: 95.99,
-        OrderItems: 'Makeup Lancome Rouge',
-        Location: 'USA',
-        Status: 'canceled',
-        StatusBg: '#FF5C8E',
-        ProductImage:
-            product2,
-    },
-    {
-        OrderID: 944895,
-        CustomerName: 'Lulia albu',
-        TotalAmount: 17.99,
-        OrderItems: 'Skincare',
-        Location: 'USA',
-        Status: 'active',
-        StatusBg: '#03C9D7',
-        ProductImage:
-            product3,
-    },
-    {
-        OrderID: 845954,
-        CustomerName: 'Penjani',
-        TotalAmount: 59.99,
-        OrderItems: 'Headphone',
-        Location: 'USA',
-        Status: 'complete',
-        StatusBg: '#8BE78B',
-        ProductImage:
-            product4,
-    },
-    {
-        OrderID: 845954,
-        CustomerName: 'Jie Yan',
-        TotalAmount: 87.99,
-        OrderItems: 'Shoes',
-        Location: 'USA',
-        Status: 'pending',
-        StatusBg: '#FB9678',
-        ProductImage:
-            'https://cdn.shopclues.com/images1/thumbnails/104158/320/320/148648730-104158193-1592481791.jpg',
+                product23,
     },
     {
         OrderID: 874534,
@@ -2755,29 +3399,7 @@ export const ordersData = [
         Status: 'canceled',
         StatusBg: '#FF5C8E',
         ProductImage:
-            'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pop-womens-garmin-watches-1641919013.jpg?crop=0.502xw:1.00xh;0.250xw,0&resize=640:*',
-    },
-    {
-        OrderID: 384892,
-        CustomerName: 'Miron',
-        TotalAmount: 87.99,
-        OrderItems: 'Ice Cream',
-        Location: 'USA',
-        Status: 'active',
-        StatusBg: '#03C9D7',
-        ProductImage:
-            'https://images.immediate.co.uk/production/volatile/sites/30/2020/08/dairy-free-ice-cream-eae372d.jpg',
-    },
-    {
-        OrderID: 245462,
-        CustomerName: 'Frank',
-        TotalAmount: 84.99,
-        OrderItems: 'Pan Cake',
-        Location: 'Delhi',
-        Status: 'complete',
-        StatusBg: '#8BE78B',
-        ProductImage:
-            'https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80',
+                product21,
     },
     {
         OrderID: 874534,
@@ -2788,107 +3410,7 @@ export const ordersData = [
         Status: 'canceled',
         StatusBg: '#FF5C8E',
         ProductImage:
-            'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pop-womens-garmin-watches-1641919013.jpg?crop=0.502xw:1.00xh;0.250xw,0&resize=640:*',
-    },
-    {
-        OrderID: 910248,
-        CustomerName: 'Vinet',
-
-        TotalAmount: 32.38,
-        OrderItems: 'Fresh Tomato',
-        Location: 'USA',
-        Status: 'pending',
-        StatusBg: '#FB9678',
-        ProductImage:
-            product6,
-    },
-    {
-        OrderID: 345653,
-        CustomerName: 'Carson Darrin',
-        TotalAmount: 56.34,
-        OrderItems: 'Butter Scotch',
-        Location: 'Delhi',
-        Status: 'complete',
-        StatusBg: '#8BE78B',
-        ProductImage:
-            product5,
-    },
-    {
-        OrderID: 390457,
-        CustomerName: 'Fran Perez',
-        TotalAmount: 93.31,
-        OrderItems: 'Candy Gucci',
-        Location: 'New York',
-        Status: 'active',
-        StatusBg: '#03C9D7',
-        ProductImage:
-            product7,
-    },
-    {
-        OrderID: 893486,
-        CustomerName: 'Anika Viseer',
-        TotalAmount: 93.31,
-        OrderItems: 'Night Lamp',
-        Location: 'Germany',
-        Status: 'canceled',
-        StatusBg: '#FF5C8E',
-        ProductImage:
-            product4,
-    },
-    {
-        OrderID: 748975,
-        CustomerName: 'Miron Vitold',
-        TotalAmount: 23.99,
-        OrderItems: 'Healthcare Erbology',
-        Location: 'Spain',
-        Status: 'Returned',
-        StatusBg: 'red',
-        ProductImage:
-            product1,
-    },
-    {
-        OrderID: 194757,
-        CustomerName: 'Omar Darobe',
-        TotalAmount: 95.99,
-        OrderItems: 'Makeup Lancome Rouge',
-        Location: 'USA',
-        Status: 'canceled',
-        StatusBg: '#FF5C8E',
-        ProductImage:
-            product2,
-    },
-    {
-        OrderID: 944895,
-        CustomerName: 'Lulia albu',
-        TotalAmount: 17.99,
-        OrderItems: 'Skincare',
-        Location: 'USA',
-        Status: 'active',
-        StatusBg: '#03C9D7',
-        ProductImage:
-            product3,
-    },
-    {
-        OrderID: 845954,
-        CustomerName: 'Penjani',
-        TotalAmount: 59.99,
-        OrderItems: 'Headphone',
-        Location: 'USA',
-        Status: 'complete',
-        StatusBg: '#8BE78B',
-        ProductImage:
-            product4,
-    },
-    {
-        OrderID: 845954,
-        CustomerName: 'Jie Yan',
-        TotalAmount: 87.99,
-        OrderItems: 'Shoes',
-        Location: 'USA',
-        Status: 'pending',
-        StatusBg: '#FB9678',
-        ProductImage:
-            'https://cdn.shopclues.com/images1/thumbnails/104158/320/320/148648730-104158193-1592481791.jpg',
+                product20,
     },
     {
         OrderID: 874534,
@@ -2899,29 +3421,7 @@ export const ordersData = [
         Status: 'canceled',
         StatusBg: '#FF5C8E',
         ProductImage:
-            'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pop-womens-garmin-watches-1641919013.jpg?crop=0.502xw:1.00xh;0.250xw,0&resize=640:*',
-    },
-    {
-        OrderID: 384892,
-        CustomerName: 'Miron',
-        TotalAmount: 87.99,
-        OrderItems: 'Ice Cream',
-        Location: 'USA',
-        Status: 'active',
-        StatusBg: '#03C9D7',
-        ProductImage:
-            'https://images.immediate.co.uk/production/volatile/sites/30/2020/08/dairy-free-ice-cream-eae372d.jpg',
-    },
-    {
-        OrderID: 245462,
-        CustomerName: 'Frank',
-        TotalAmount: 84.99,
-        OrderItems: 'Pan Cake',
-        Location: 'Delhi',
-        Status: 'complete',
-        StatusBg: '#8BE78B',
-        ProductImage:
-            'https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80',
+                product22,
     },
     {
         OrderID: 874534,
@@ -2932,7 +3432,161 @@ export const ordersData = [
         Status: 'canceled',
         StatusBg: '#FF5C8E',
         ProductImage:
-            'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pop-womens-garmin-watches-1641919013.jpg?crop=0.502xw:1.00xh;0.250xw,0&resize=640:*',
+                product24,
+    },
+    {
+        OrderID: 874534,
+        CustomerName: 'Danai',
+        TotalAmount: 122.99,
+        OrderItems: 'Watch',
+        Location: 'USA',
+        Status: 'canceled',
+        StatusBg: '#FF5C8E',
+        ProductImage:
+                product13,
+    },
+    {
+        OrderID: 874534,
+        CustomerName: 'Danai',
+        TotalAmount: 122.99,
+        OrderItems: 'Watch',
+        Location: 'USA',
+        Status: 'canceled',
+        StatusBg: '#FF5C8E',
+        ProductImage:
+                product18,
+    },
+    {
+        OrderID: 874534,
+        CustomerName: 'Danai',
+        TotalAmount: 122.99,
+        OrderItems: 'Watch',
+        Location: 'USA',
+        Status: 'canceled',
+        StatusBg: '#FF5C8E',
+        ProductImage:
+                product19,
+    },
+    {
+        OrderID: 874534,
+        CustomerName: 'Danai',
+        TotalAmount: 122.99,
+        OrderItems: 'Watch',
+        Location: 'USA',
+        Status: 'canceled',
+        StatusBg: '#FF5C8E',
+        ProductImage:
+                product20,
+    },
+    {
+        OrderID: 874534,
+        CustomerName: 'Danai',
+        TotalAmount: 122.99,
+        OrderItems: 'Watch',
+        Location: 'USA',
+        Status: 'canceled',
+        StatusBg: '#FF5C8E',
+        ProductImage:
+                product15,
+    },
+    {
+        OrderID: 874534,
+        CustomerName: 'Danai',
+        TotalAmount: 122.99,
+        OrderItems: 'Watch',
+        Location: 'USA',
+        Status: 'canceled',
+        StatusBg: '#FF5C8E',
+        ProductImage:
+                product16,
+    },
+    {
+        OrderID: 874534,
+        CustomerName: 'Danai',
+        TotalAmount: 122.99,
+        OrderItems: 'Watch',
+        Location: 'USA',
+        Status: 'canceled',
+        StatusBg: '#FF5C8E',
+        ProductImage:
+                product17,
+    },
+    {
+        OrderID: 874534,
+        CustomerName: 'Danai',
+        TotalAmount: 122.99,
+        OrderItems: 'Watch',
+        Location: 'USA',
+        Status: 'canceled',
+        StatusBg: '#FF5C8E',
+        ProductImage:
+                product18,
+    },
+    {
+        OrderID: 874534,
+        CustomerName: 'Danai',
+        TotalAmount: 122.99,
+        OrderItems: 'Watch',
+        Location: 'USA',
+        Status: 'canceled',
+        StatusBg: '#FF5C8E',
+        ProductImage:
+                product20,
+    },
+    {
+        OrderID: 874534,
+        CustomerName: 'Danai',
+        TotalAmount: 122.99,
+        OrderItems: 'Watch',
+        Location: 'USA',
+        Status: 'canceled',
+        StatusBg: '#FF5C8E',
+        ProductImage:
+                product13,
+    },
+    {
+        OrderID: 874534,
+        CustomerName: 'Danai',
+        TotalAmount: 122.99,
+        OrderItems: 'Watch',
+        Location: 'USA',
+        Status: 'canceled',
+        StatusBg: '#FF5C8E',
+        ProductImage:
+                product12,
+    },
+    {
+        OrderID: 874534,
+        CustomerName: 'Danai',
+        TotalAmount: 122.99,
+        OrderItems: 'Watch',
+        Location: 'USA',
+        Status: 'canceled',
+        StatusBg: '#FF5C8E',
+        ProductImage:
+                product11,
+    },
+    {
+        OrderID: 874534,
+        CustomerName: 'Danai',
+        TotalAmount: 122.99,
+        OrderItems: 'Watch',
+        Location: 'USA',
+        Status: 'canceled',
+        StatusBg: '#FF5C8E',
+        ProductImage:
+                product17,
+    },
+    {
+        OrderID: 874534,
+        CustomerName: 'Danai',
+        TotalAmount: 122.99,
+        OrderItems: 'Watch',
+        Location: 'USA',
+        Status: 'canceled',
+        StatusBg: '#FF5C8E',
+        ProductImage:
+                product19,
     },
 ];
 
