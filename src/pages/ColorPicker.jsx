@@ -20,7 +20,8 @@ const ColorPicker = () => {
                                 mode='Pallete'
                                 modeSwitcher={false}
                                 inline
-                                
+                                showButtons={false}
+                                change={change}
                                 />
                             </div>
 
