@@ -12,6 +12,9 @@ const Customers = () => {
             dataSource={customersData}
             allowPaging
             allowSorting
+            toolbar={['Delete']}
+            editSettings={{ allowDeleting: true, allowEditing: true }}
+            width='auto'
             >
                 <ColumnsDirective>
                     { customersGrid.map((item, index) => (
