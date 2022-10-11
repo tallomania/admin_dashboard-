@@ -8,7 +8,11 @@ const Customers = () => {
     return (
         <div className='m-2 md:m-10 p-2 md:p-10 bg-white rounded-3xl' >
             <Header category='Page' title='Customers' />
-            <GridComponent>
+            <GridComponent
+            dataSource={customersData}
+            allowPaging
+            allowSorting
+            >
                 <ColumnsDirective>
                     { customersGrid.map((item, index) => (
                         <ColumnDirective key={index} {...item} />
