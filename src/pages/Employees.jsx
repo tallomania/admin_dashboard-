@@ -11,6 +11,7 @@ const Employees = () => {
                 dataSource={employeesData}
                 allowPaging
                 allowSorting
+                enableStickyHeader={true}
                 toolbar={['Search']}
                 width='auto'
             >
