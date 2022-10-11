@@ -13,6 +13,10 @@ import './App.css'
 const App = () => {
     const { activeMenu, themeSettings, setThemeSettings, currentColor, setCurrentMode, setCurrentColor, currentMode } = useStateContext();
 
+    useEffect(() => {
+        const currentThemeColor = localStorage.getItem("colorMode");
+        const currentThemeMode = localStorage.getItem("themeMode");
+        
 
     return (
         <div className={ currentMode === 'Dark' ? 'dark' : ''} >
