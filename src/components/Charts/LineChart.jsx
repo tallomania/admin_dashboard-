@@ -11,7 +11,6 @@ const LineChart = () => {
         <ChartComponent
             id='line-chart'
             height='420px'
-            enableStickyHeader={true}
             primaryXAxis={LinePrimaryXAxis}
             primaryYAxis={LinePrimaryYAxis}
             chartArea={{ border: { width: 0 } }}
