@@ -11,14 +11,23 @@ const Ecommerce = () => {
     return (
         <div className='mt-16' >
             <div className='flex flex-wrap lg:flex-nowrap justify-center ' >
-                <div className='bg-white dark:text-gray-200   h-44 rounded-xl w-full  lg:w-80 p-8 pt-9 m-3 bg-hero-pattern bg-no-repeat bg-cover bg-center' >
+                <div className='bg-white dark:text-gray-200 dark:bg-secondary-dark-bg  h-44 rounded-xl w-full  lg:w-80 p-8 pt-9 m-3 bg-hero-pattern bg-no-repeat bg-cover bg-center' >
                     <div className='flex justify-between items-center' >
                         <div>
-                            <p className='font-bold  text-lg' >Earnings ($)</p>
-                            <p className='text-2xl ' >90,253,456.54</p>
+                            <p className='font-bold text-gray-600 text-lg' >Earnings ($)</p>
+                            <p className='text-2xl dark:text-gray-500' >90,253,456.54</p>
                         </div>
                     </div>
-                    
+                    <div className='mt-5'>
+                        <Button
+                        className='hover:drop-shadow-xl'
+                            color='white'
+                            // bgColor='#EE8060'
+                            bgColor={currentColor}
+                            borderRadius='12px'
+                            text='Download'
+                            size='md'  />
+                    </div>
                 </div>
 
                 <div className="flex m-3 flex-wrap justify-center gap-1 items-center">
@@ -60,7 +69,7 @@ const Ecommerce = () => {
                             </p>
                         </div>
                     </div>
-
+                   
 
                     </div>
                 </div>
