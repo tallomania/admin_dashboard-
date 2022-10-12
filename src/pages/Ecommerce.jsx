@@ -88,7 +88,17 @@ const Ecommerce = () => {
                                     Expense
                                 </p>
                             </div>
-
+                            <div className='mt-5' >
+                                <SparkLine
+                                    currentColor={currentColor}
+                                    id='line-sparking'
+                                    type='Line'
+                                    height='80px'
+                                    width='250px'
+                                    data={SparklineAreaData}
+                                    color={currentColor}
+                                />
+                            </div>
 
                         </div>
 
