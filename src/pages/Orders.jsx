@@ -11,6 +11,7 @@ const Orders = () => {
                 id='gridcomp'
                 dataSource={ordersData}
                 allowPaging
+                enableStickyHeader={true}
                 allowSorting
             >
                 <ColumnsDirective>

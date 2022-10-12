@@ -11,6 +11,7 @@ const Customers = () => {
             <GridComponent
             dataSource={customersData}
             allowPaging
+            enableStickyHeader={true}
             allowSorting
             toolbar={['Delete']}
             editSettings={{ allowDeleting: true, allowEditing: true }}
