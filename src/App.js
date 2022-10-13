@@ -1,7 +1,6 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { MdOutlineSettings } from 'react-icons/md';
-// import { MdOutlineSettingsSuggest } from 'react-icons/md';
 import { TooltipComponent } from '@syncfusion/ej2-react-popups';
 
 import { Navbar, Sidebar, Footer, ThemeSettings } from './components';
@@ -30,10 +29,9 @@ const App = () => {
                         <TooltipComponent content='Goto Settings' position='Top' >
                             <button
                                 type='button'
-                                className='text-6xl p-3 hover:drop-shadow-xl hover:bg-light-gray text-gray-400'
+                                className='text-3xl p-3 hover:drop-shadow-xl hover:bg-light-gray text-gray-400'
                                 style={{ background: currentColor, borderRadius: "50%" }}
                                 onClick={() => setThemeSettings(true)} >
-                                {/* <MdOutlineSettingsSuggest /> */}
                                 <MdOutlineSettings />
                             </button>
                         </TooltipComponent>
@@ -47,7 +45,7 @@ const App = () => {
                                     <Sidebar />
                                 </div>
                     )}
-                    
+
                     <div className={ `dark:bg-main-dark-bg bg-main-bg min-h-screen w-full ${activeMenu ? 'md:ml-72' : 'flex-2'} ` }>
                         <div className='fixed md:static bg-main-bg dark:bg-main-dark-bg navbar w-full' >
                             <Navbar />
