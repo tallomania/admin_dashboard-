@@ -708,14 +708,12 @@ export const cartData = [
         category: 'Food Item',
         price: '$190',
     },
-    },
     {
         image:
             product22,
         name: 'Red color candy',
         category: 'Food Item',
         price: '$190',
-    },
     },
     {
         image:
@@ -2774,8 +2772,7 @@ export const ordersData = [
         OrderID: 874534,
         CustomerName: 'Danai',
         TotalAmount: 122.99,
-        OrderItems: 'Watch',,
-
+        OrderItems: 'Watch',
         Location: 'USA',
         Status: 'canceled',
         StatusBg: '#FF5C8E',
