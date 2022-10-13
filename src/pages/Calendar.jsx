@@ -12,10 +12,10 @@ const Calendar = () => {
                 eventSettings={{ dataSource: scheduleData }}
                 selectedDate={new Date(2021, 0, 10)}
             >
-                <Inject services={[ Day, Week, WorkWeek, Month, Agenda, Resize, DragAndDrop ]} />
+                <Inject services={[Day, Week, WorkWeek, Month, Agenda, Resize, DragAndDrop]} />
             </ScheduleComponent>
         </div>
-    )
-}
+    );
+};
 
-export default Calendar
+export default Calendar;

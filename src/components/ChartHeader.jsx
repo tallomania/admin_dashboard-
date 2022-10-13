@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ChartsHeader = ({ category, title }) => (
+const ChartHeader = ({ category, title }) => (
     <div className=" mb-10">
         <div>
             <p className="text-lg text-gray-400">Chart</p>
@@ -10,4 +10,4 @@ const ChartsHeader = ({ category, title }) => (
     </div>
 );
 
-export default ChartsHeader;
+export default ChartHeader;

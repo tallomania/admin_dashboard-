@@ -1,5 +1,5 @@
 import React from 'react';
-import { ChartComponent, SeriesDirective, SeriesCollectionDirective, Inject, DateTime, Crosshair, Logarithmic, HiloSeries, Zoom, Legend, Tooltip, ColumnSeries, Category } from "@syncfusion/ej2-react-charts";
+import { ChartComponent, SeriesDirective, SeriesCollectionDirective, Inject, DateTime, Crosshair, Logarithmic, HiloSeries, Zoom, Tooltip} from "@syncfusion/ej2-react-charts";
 
 import { financialChartData, FinancialPrimaryXAxis, FinancialPrimaryYAxis } from '../../data/dummy';
 import { useStateContext } from '../../contexts/ContextProvider';
