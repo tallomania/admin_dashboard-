@@ -52,11 +52,12 @@ const Ecommerce = () => {
                     <div className='mt-5'>
                         <Button
                         className='hover:drop-shadow-xl'
-                            color='white'
+                            color='gray-300'
                             bgColor={currentColor}
                             borderRadius='12px'
                             text='Download'
-                            size='md'  />
+                            size='md'
+                            />
                     </div>
                 </div>
 
@@ -67,14 +68,16 @@ const Ecommerce = () => {
                             <button
                                 type='button'
                                 style={{ color: item.iconColor, backgroundColor: item.iconBg }}
-                                className="text-2xl opacity-0.9 rounded-full p-4 hover:drop-shadow-xl  " >
+                                className="text-2xl opacity-0.9 rounded-full p-4 hover:drop-shadow-xl  "
+                                    >
                                 {item.icon}
                             </button>
                             <p className='mt-3' >
                                 <span className='text-lg font-semibold' >
                                 {item.amount}
                                 </span>
-                                <span className={`text-sm text-${item.pcColor} ml-2`} >
+                                <span className={`text-sm text-${item.pcColor} ml-2`}
+                                >
                                 {item.percentage}
                                 </span>
                             </p>
@@ -139,10 +142,20 @@ const Ecommerce = () => {
                             </div>
                         </div>
                         <div>
-                            <Stacked
-                                width='360px'
-                                height='400px'
-                            />
+                            <Stacked width='360px' height='400px' />
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div
+                        className='rounded-2xl md:w-400 p-4 m-3'
+                        style={{ backgroundColor: currentColor }} >
+                    <div className='flex justify-between items-center' >
+                            <p className='font-semibold text-white text-2xl' >Earnings</p>
+                            <div>
+                                <p>$92,345.34</p>
+                                <p>Monthly Revenue</p>
+                            </div>
                         </div>
                     </div>
                 </div>
