@@ -27,10 +27,10 @@ const DropDown = ({ currentMode }) = (
             popupHeight='220px'
         />
     </div>
-)
+);
 
 const Ecommerce = () => {
-    const {currentColor} = useStateContext()
+    const { currentColor } = useStateContext();
 
     return (
         <div className='mt-16' >
@@ -41,12 +41,18 @@ const Ecommerce = () => {
                             <p className='font-bold text-gray-600 text-lg' >Earnings ($)</p>
                             <p className='text-2xl dark:text-gray-400' >90,253,456.54</p>
                         </div>
+                        <button
+                            type='button'
+                            style={{ backgroundColor: currentColor }}
+                            className='text-2xl opacity-0.9 text-white hover:drop-shadow-xl rounded-full p-4 '
+                        >
+                            <BsCurrencyDollar />
+                        </button>
                     </div>
                     <div className='mt-5'>
                         <Button
                         className='hover:drop-shadow-xl'
                             color='white'
-                            // bgColor='#EE8060'
                             bgColor={currentColor}
                             borderRadius='12px'
                             text='Download'
