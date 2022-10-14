@@ -22,6 +22,9 @@ const DropDown = ({ currentMode }) = (
                 border: 'none',
                 color: (currentColor === 'Dark') && 'whitesmoke'
             }}
+            value='1'
+            dataSource={dropdownData}
+            popupHeight='220px'
         />
     </div>
 )
