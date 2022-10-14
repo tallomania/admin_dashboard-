@@ -1,9 +1,20 @@
 import React from 'react';
 import { BsCurrencyDollar } from 'react-icons/bs';
+import { IoIosMore } from 'react-icons/io';
 import { GoPrimitiveDot } from 'react-icons/go';
+
+import { DropDownListComponent } from '@syncfusion/ej2-react-dropdowns';
 import { Stacked, Pie, Button, SparkLine } from '../components';
 import { earningData, SparklineAreaData, ecomPieChartData } from '../data/dummy';
+import product2 from '../data/product2.jpg
+'
 import { useStateContext } from '../contexts/ContextProvider';
+
+const DropDown = ({ currentMode }) = (
+    <div className='w-28' >
+        <DropDownListComponent />
+    </div>
+)
 
 const Ecommerce = () => {
     const {currentColor} = useStateContext()

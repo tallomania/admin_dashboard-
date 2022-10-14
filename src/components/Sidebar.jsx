@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import { SiGenius } from 'react-icons/si';
-// import { GiRollingEnergy, GiRegeneration } from 'react-icons/gi';
+import { GiBurningMeteor } from 'react-icons/gi';
 import { MdCancel } from 'react-icons/md';
 import { TooltipComponent } from '@syncfusion/ej2-react-popups';
 
@@ -28,15 +27,12 @@ const Sidebar = () => {
                     <div className="flex justify-between items-center" >
                         <Link to='/' className='items-center gap-3 ml-3 mt-4 flex text-xl font-extrabold tracking-tight dark:text-white text-slate-900'
                             onClick={handleCloseSidebar} >
-                            <SiGenius />
-                            {/* <GiRegeneration /> */}
-                            {/* <GiRollingEnergy /> */}
-                            <span>Genie<span className='bg-gradient-to-bl from-cyan-300 to-rose-600 rounded-r-md pr-2' >Six</span></span>
+                            <GiBurningMeteor />
+                            <span className='bg-gradient-to'> Genie<span className='bg-gradient-to-bl from-cyan-300 to-rose-600 rounded-r-md pr-2' >Six</span></span>
                         </Link>
                         <TooltipComponent content='Menu' position='BottomCenter'>
                             <button
                                 type='button'
-                                // onClick={() => setActiveMenu((prevActiveMenu) => !prevActiveMenu)}
                                 onClick={() => setActiveMenu(!activeMenu)}
                                 style={{ color: currentColor }}
                                 className='text-xl rounded-full p-3 hover:bg-light-gray mt-4 block md:hidden' >

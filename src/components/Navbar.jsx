@@ -57,14 +57,14 @@ const Navbar = () => {
 
             <NavButton
                 title='Chat'
-                dotColor='#03c9d7'
+                dotColor='#980776'
                 customFunc={() => handleClick('chat')}
                 color={currentColor}
                 icon={<BsChatRightDots />} />
 
             <NavButton
             title='Notifications'
-                dotColor='#03c9d7'
+                dotColor='#988907'
                 customFunc={() => handleClick('notification')}
                 color={currentColor}
                 icon={< RiNotification3Line />} />
