@@ -11,11 +11,11 @@ const Ecommerce = () => {
     return (
         <div className='mt-16' >
             <div className='flex flex-wrap lg:flex-nowrap justify-center ' >
-                <div className='bg-white dark:text-gray-200 dark:bg-secondary-dark-bg  h-44 rounded-xl w-full  lg:w-80 p-8 pt-9 m-3 bg-hero-pattern bg-no-repeat bg-cover bg-center' >
+                <div className='bg-white dark:text-gray-200 dark:bg-secondary-dark-bg  h-44 rounded-xl w-full  lg:w-80 p-8 pt-9 m-3 bg-hero-pattern  dark:bg-switch bg-no-repeat bg-cover bg-center' >
                     <div className='flex justify-between items-center' >
                         <div>
                             <p className='font-bold text-gray-600 text-lg' >Earnings ($)</p>
-                            <p className='text-2xl dark:text-gray-500' >90,253,456.54</p>
+                            <p className='text-2xl dark:text-gray-400' >90,253,456.54</p>
                         </div>
                     </div>
                     <div className='mt-5'>
@@ -55,7 +55,7 @@ const Ecommerce = () => {
             </div>
 
             <div className='flex gap-10 flex-wrap justify-center' >
-                <div className='bg-white dark:text-gray-200 dark:bg-secondary-dark-bg  m-3 p-4 rounded-2xl md:w-780' >
+                <div className='bg-white dark:text-gray-300 dark:bg-secondary-dark-bg  m-3 p-4 rounded-2xl md:w-780' >
                     <div className='flex justify-between' >
                         <p className='font-semibold text-xl' > Revenue Updates ($)</p>
                         <div className='flex items-center gap-4' >
