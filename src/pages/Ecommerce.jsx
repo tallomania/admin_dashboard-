@@ -150,13 +150,19 @@ const Ecommerce = () => {
                     <div
                         className='rounded-2xl md:w-400 p-4 m-3'
                         style={{ backgroundColor: currentColor }} >
-                    <div className='flex justify-between items-center' >
+
+                        <div className='flex justify-between items-center' >
                             <p className='font-semibold text-white text-2xl' >Earnings</p>
+
                             <div>
-                                <p>$92,345.34</p>
-                                <p>Monthly Revenue</p>
+                                <p className='text-2xl text-white font-semibold mt-8 ' >$92,345.34</p>
+                                <p className='text-gray-300' > Monthly Revenue</p>
                             </div>
                         </div>
+
+                        <div>
+                            <SparkLine />
+                    </div>
                     </div>
                 </div>
             </div>
