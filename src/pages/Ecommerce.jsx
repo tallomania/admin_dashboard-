@@ -6,28 +6,28 @@ import { GoPrimitiveDot } from 'react-icons/go';
 import { DropDownListComponent } from '@syncfusion/ej2-react-dropdowns';
 import { Stacked, Pie, Button, SparkLine } from '../components';
 import { earningData, SparklineAreaData, ecomPieChartData } from '../data/dummy';
-import product2 from '../data/product2.jpg;
-'
+import product2 from '../data/product2.jpg';
+
 import { useStateContext } from '../contexts/ContextProvider';
 
-const DropDown = ({ currentMode }) = (
-    <div className='w-28 border-1 border-color px-2 py-1 rounded-md' >
-        <DropDownListComponent
-            id='time'
-            fields={{
-                text: 'Time',
-                value: 'Id'
-            }}
-            style={{
-                border: 'none',
-                color: (currentColor === 'Dark') && 'whitesmoke'
-            }}
-            value='1'
-            dataSource={dropdownData}
-            popupHeight='220px'
-        />
-    </div>
-);
+// const DropDown = ({ currentMode }) = (
+//     <div className='w-28 border-1 border-color px-2 py-1 rounded-md' >
+//         <DropDownListComponent
+//             id='time'
+//             fields={{
+//                 text: 'Time',
+//                 value: 'Id'
+//             }}
+//             style={{
+//                 border: 'none',
+//                 color: (currentColor === 'Dark') && 'whitesmoke'
+//             }}
+//             value='1'
+//             dataSource={dropdownData}
+//             popupHeight='220px'
+//         />
+//     </div>
+// );
 
 const Ecommerce = () => {
     const { currentColor } = useStateContext();
