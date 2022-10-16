@@ -221,6 +221,11 @@ const Ecommerce = () => {
                             </div>
                         ) )}
                     </div>
+                    <div className='flex' >
+                        <div>
+                            <Button />
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
