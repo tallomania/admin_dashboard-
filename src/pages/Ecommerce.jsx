@@ -5,7 +5,7 @@ import { GoPrimitiveDot } from 'react-icons/go';
 
 import { DropDownListComponent } from '@syncfusion/ej2-react-dropdowns';
 import { Stacked, Pie, Button, SparkLine, LineChart } from '../components';
-import { earningData, SparklineAreaData, ecomPieChartData, recentTransactions } from '../data/dummy';
+import { earningData, SparklineAreaData, ecomPieChartData, recentTransactions, weeklyStats } from '../data/dummy';
 import product2 from '../data/product2.jpg';
 
 import { useStateContext } from '../contexts/ContextProvider';
@@ -254,6 +254,17 @@ const Ecommerce = () => {
                         >
                             <IoIosMore />
                         </button>
+                    </div>
+                    <div>
+                        {weeklyStats.map((item) => (
+                            <div key={item.title} className='flex justify-between mt-4 w-full' >
+                                <div className='flex gap-4'>
+                                    <button>
+                                        {item.icon}
+                                    </button>
+                                </div>
+                            </div>
+                        ) )}
                     </div>
                 </div>
             </div>
