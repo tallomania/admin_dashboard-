@@ -198,7 +198,7 @@ const Ecommerce = () => {
                         <DropDown currentMode={currentMode}  />
                     </div>
 
-                    <div>
+                    <div className='m-10 w-72 md:w-400' >
                         {recentTransactions.map((item) => (
                             <div key={item.title} className='flex justify-between mt-4' >
                                 <div>
