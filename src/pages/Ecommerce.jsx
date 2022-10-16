@@ -192,7 +192,7 @@ const Ecommerce = () => {
 
             <div className='flex gap-10 m-4 flex-wrap justify-center ' >
                 <div className='bg-white dark:text-gray-200 dark:bg-secondary-dark-bg rounded-2xl p-6 ' >
-                    <div>
+                    <div className='flex justify-between items-center gap-2' >
                         <p>Recent Transactions </p>
                         <DropDown currentMode={currentMode}  />
                     </div>
