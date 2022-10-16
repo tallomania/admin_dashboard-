@@ -266,6 +266,11 @@ const Ecommerce = () => {
                                     >
                                         {item.icon}
                                     </button>
+
+                                    <div>
+                                        <p className="text-md font-semibold">{item.title}</p>
+                                        <p className="text-sm text-gray-400">{item.desc}</p>
+                                    </div>
                                 </div>
                             </div>
                         ) )}
