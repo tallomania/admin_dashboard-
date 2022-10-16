@@ -18,7 +18,10 @@ const DropDown = ({ currentMode }) = (
                 text: 'Time',
                 value: 'Id'
             }}
-            
+            style={{
+                border: 'none',
+                color: (currentColor === 'Dark') && 'whitesmoke'
+            }}
         />
     </div>
 );
