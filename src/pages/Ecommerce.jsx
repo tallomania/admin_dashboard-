@@ -223,7 +223,12 @@ const Ecommerce = () => {
                     </div>
                     <div className='flex justify-between items-center mt-5 border-t-1 border-color' >
                         <div className='mt-3' >
-                            <Button />
+                            <Button
+                                color='white'
+                                text='Add'
+                                bgColor={currentColor}
+                                borderRadius='12px'
+                            />
                         </div>
                     </div>
                 </div>
