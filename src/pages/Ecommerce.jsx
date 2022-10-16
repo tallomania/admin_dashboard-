@@ -230,6 +230,7 @@ const Ecommerce = () => {
                                 borderRadius='12px'
                             />
                         </div>
+                        <p className='text-gray-500 text-md' > 30 Recent Transactions</p>
                     </div>
                 </div>
             </div>
