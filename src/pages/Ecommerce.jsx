@@ -340,7 +340,14 @@ const Ecommerce = () => {
                             <IoIosMore />
                         </button>
                     </div>
-                    
+                    <div className="mt-10">
+                        <img
+                            className="md:w-96 h-50 "
+                            src={product2}
+                            alt=""
+                        />
+
+                    </div>
                 </div>
             </div>
             );
