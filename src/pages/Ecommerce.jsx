@@ -291,7 +291,14 @@ const Ecommerce = () => {
                     23 MAR, 2022
                 </p>
 
-
+                <div className="flex gap-4 border-b-1 border-color mt-6">
+                    {medicalproBranding.data.map((item) => (
+                    <div key={item.title} className="border-r-1 border-color pr-4 pb-2">
+                        <p className="text-xs text-gray-400">{item.title}</p>
+                        <p className="text-sm">{item.desc}</p>
+                    </div>
+                    ))}
+                </div>
             </div>
         </div>
     )
