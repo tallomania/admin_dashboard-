@@ -212,6 +212,10 @@ const Ecommerce = () => {
                                     >
                                         {item.icon}
                                     </button>
+                                    <div>
+                                        <p>{ item.title}</p>
+                                        <p>{ item.desc}</p>
+                                    </div>
                                 </div>
                             </div>
                         ) )}
