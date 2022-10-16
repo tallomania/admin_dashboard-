@@ -208,6 +208,7 @@ const Ecommerce = () => {
                                             color: item.iconColor,
                                             backgroundColor: item.iconBg,
                                         }}
+                                        className='text-2xl rounded-lg p-4 hover:drop-shadow-xl'
                                     >
                                         {item.icon}
                                     </button>
