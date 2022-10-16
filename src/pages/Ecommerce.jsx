@@ -9,9 +9,8 @@ import { earningData, SparklineAreaData, ecomPieChartData, recentTransactions, w
 import product2 from '../data/product2.jpg';
 
 import { useStateContext } from '../contexts/ContextProvider';
-import { LegendItemStyle } from '@syncfusion/ej2-react-charts';
 
-const DropDown = ({ currentMode }) = (
+const DropDown = ({ currentMode }) => (
     <div className='w-28 border-1 border-color px-2 py-1 rounded-md' >
         <DropDownListComponent
             id='time'
@@ -364,8 +363,9 @@ const Ecommerce = () => {
                         </div>
                     </div>
                 </div>
-            </div>
-            );
+                </div>
+        </div>
+    );
 }
 
-            export default Ecommerce;
+export default Ecommerce;
