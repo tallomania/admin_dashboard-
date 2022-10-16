@@ -4,7 +4,7 @@ import { IoIosMore } from 'react-icons/io';
 import { GoPrimitiveDot } from 'react-icons/go';
 
 import { DropDownListComponent } from '@syncfusion/ej2-react-dropdowns';
-import { Stacked, Pie, Button, SparkLine } from '../components';
+import { Stacked, Pie, Button, SparkLine, LineChart } from '../components';
 import { earningData, SparklineAreaData, ecomPieChartData, recentTransactions } from '../data/dummy';
 import product2 from '../data/product2.jpg';
 
@@ -237,6 +237,9 @@ const Ecommerce = () => {
                     <div className='flex justify-between items-center gap-2 mb-10'>
                         <p className='text-xl font-semibold' >Sales Reviews</p>
                         <DropDown currentMode={currentMode} />
+                    </div>
+                    <div className='md:w-full overflow-auto'>
+                        <LineChart />
                     </div>
                 </div>
             </div>
