@@ -233,6 +233,11 @@ const Ecommerce = () => {
                         <p className='text-gray-500 text-md' > 30 Recent Transactions</p>
                     </div>
                 </div>
+                <div className='bg-white' >
+                    <div className='flex justify-between'>
+                        <p>Sales Reviews</p>
+                    </div>
+                </div>
             </div>
         </div>
     )
