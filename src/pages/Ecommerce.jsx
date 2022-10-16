@@ -217,6 +217,7 @@ const Ecommerce = () => {
                                         <p className='text-sm text-gray-400' >{ item.desc}</p>
                                     </div>
                                 </div>
+                                <p className={`text-${item.pcColor}`} >{ item.pcColor}</p>
                             </div>
                         ) )}
                     </div>
