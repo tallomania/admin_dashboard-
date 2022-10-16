@@ -353,7 +353,14 @@ const Ecommerce = () => {
                                 This will be the small description for the news you have shown
                                 here. There could be some great info.
                             </p>
-
+                            <div className="mt-3">
+                                <Button
+                                    color="white"
+                                    bgColor={currentColor}
+                                    text="Read More"
+                                    borderRadius="10px"
+                                />
+                            </div>
                         </div>
                     </div>
                 </div>
