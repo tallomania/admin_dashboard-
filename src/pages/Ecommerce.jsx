@@ -298,10 +298,14 @@ const Ecommerce = () => {
                         <p className="text-sm">{item.desc}</p>
                     </div>
                     ))}
-                </div>
+                    </div>
+                <div className="border-b-1 border-color pb-4 mt-2">
+                        <p className="text-md font-semibold mb-2">Teams</p>
+                   
+            </div>
             </div>
         </div>
-    )
+    );
 }
 
 export default Ecommerce;
