@@ -287,7 +287,9 @@ const Ecommerce = () => {
                     <IoIosMore />
                     </button>
                 </div>
-                
+                <p className="text-xs cursor-pointer hover:drop-shadow-xl font-semibold rounded-lg w-24 bg-orange-400 py-0.5 px-2 text-gray-200 mt-10">
+                    23 MAR, 2022
+                </p>
 
 
             </div>
