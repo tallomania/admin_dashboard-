@@ -172,6 +172,9 @@ const Ecommerce = () => {
                             />
                     </div>
                     </div>
+                    <div className='bg-white dark:text-gray-200 dark:bg-secondary-dark-bg rounded-2xl ' >
+
+                    </div>
                 </div>
             </div>
         </div>
