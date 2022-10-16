@@ -202,7 +202,13 @@ const Ecommerce = () => {
                         {recentTransactions.map((item) => (
                             <div key={item.title} className='flex justify-between mt-4' >
                                 <div className='flex gap-4' >
-                                    <button>
+                                    <button
+                                        type='button'
+                                        style={{
+                                            color: item.iconColor,
+                                            backgroundColor: item.iconBg,
+                                        }}
+                                    >
                                         {item.icon}
                                     </button>
                                 </div>
