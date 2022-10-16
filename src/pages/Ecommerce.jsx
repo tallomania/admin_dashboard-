@@ -160,8 +160,12 @@ const Ecommerce = () => {
                             </div>
                         </div>
 
-                        <div>
-                            <SparkLine />
+                        <div className='mt-4' >
+                            <SparkLine
+                                id='column-sparkLine'
+                                height='100px'
+                                currentColor={currentColor}
+                            />
                     </div>
                     </div>
                 </div>
