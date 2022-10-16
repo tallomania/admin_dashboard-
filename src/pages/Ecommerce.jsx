@@ -190,7 +190,7 @@ const Ecommerce = () => {
                 </div>
             </div>
 
-            <div>
+            <div className='flex gap-10 m-4 flex-wrap justify-center ' >
                 <div>
                     <div>
                         <p>Recent Transactions </p>
