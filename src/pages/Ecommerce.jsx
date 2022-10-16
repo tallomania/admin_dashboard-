@@ -5,10 +5,11 @@ import { GoPrimitiveDot } from 'react-icons/go';
 
 import { DropDownListComponent } from '@syncfusion/ej2-react-dropdowns';
 import { Stacked, Pie, Button, SparkLine } from '../components';
-import { earningData, SparklineAreaData, ecomPieChartData } from '../data/dummy';
+import { earningData, SparklineAreaData, ecomPieChartData, recentTransactions } from '../data/dummy';
 import product2 from '../data/product2.jpg';
 
 import { useStateContext } from '../contexts/ContextProvider';
+import { LegendItemStyle } from '@syncfusion/ej2-react-charts';
 
 const DropDown = ({ currentMode }) = (
     <div className='w-28 border-1 border-color px-2 py-1 rounded-md' >
@@ -195,6 +196,18 @@ const Ecommerce = () => {
                     <div className='flex justify-between items-center gap-2' >
                         <p>Recent Transactions </p>
                         <DropDown currentMode={currentMode}  />
+                    </div>
+
+                    <div>
+                        {recentTransactions.map((item) => (
+                            <div key={item.title} className='flex justify-between mt-4' >
+                                <div>
+                                    <button>
+                                        {item.icon}
+                                    </button>
+                                </div>
+                            </div>
+                        ) )}
                     </div>
                 </div>
             </div>
