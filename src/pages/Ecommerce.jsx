@@ -177,6 +177,14 @@ const Ecommerce = () => {
                             <p className='text-2xl font-semibold' > $50,558 </p>
                             <p className='text-gray-400' >Yearly Sales </p>
                         </div>
+
+                        <div className='w-40' >
+                            <Pie
+                                id='pie-chart'
+                                
+                                height='160px'
+                            />
+                        </div>
                     </div>
                 </div>
             </div>
