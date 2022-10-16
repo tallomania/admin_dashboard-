@@ -164,6 +164,8 @@ const Ecommerce = () => {
                             <SparkLine
                                 id='column-sparkLine'
                                 height='100px'
+                                type='Column'
+                                data={SparklineAreaData}
                                 currentColor={currentColor}
                             />
                     </div>
