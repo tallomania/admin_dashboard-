@@ -189,6 +189,15 @@ const Ecommerce = () => {
                     </div>
                 </div>
             </div>
+
+            <div>
+                <div>
+                    <div>
+                        <p>Recent Transactions </p>
+                        <DropDown currentMode={currentMode}  />
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
