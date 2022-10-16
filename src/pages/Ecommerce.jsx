@@ -329,7 +329,10 @@ const Ecommerce = () => {
                 text="Add"
                 borderRadius="10px"
               />
-            </div>
+                        </div>
+                        <p className="text-gray-400 text-sm">36 Recent Transactions</p>
+          </div>
+        </div>
             </div>
         </div>
     );
