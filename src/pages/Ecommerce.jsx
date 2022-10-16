@@ -259,7 +259,11 @@ const Ecommerce = () => {
                         {weeklyStats.map((item) => (
                             <div key={item.title} className='flex justify-between mt-4 w-full' >
                                 <div className='flex gap-4'>
-                                    <button>
+                                    <button
+                                        type='button'
+                                        className='text-2xl hover:drop-shadow-xl text-white rounded-full p-3  '
+                                        style={{ background: item.iconBg }}
+                                    >
                                         {item.icon}
                                     </button>
                                 </div>
