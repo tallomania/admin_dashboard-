@@ -301,7 +301,17 @@ const Ecommerce = () => {
                     </div>
                 <div className="border-b-1 border-color pb-4 mt-2">
                         <p className="text-md font-semibold mb-2">Teams</p>
-                   
+                    <div className="flex gap-4">
+                        {medicalproBranding.teams.map((item) => (
+                        <p
+                            key={item.name}
+                            style={{ background: item.color }}
+                            className="cursor-pointer hover:drop-shadow-xl text-white py-0.5 px-3 rounded-lg text-xs"
+                            >
+                        {item.name}
+                        </p>
+                    ))}
+                </div>
             </div>
             </div>
         </div>
