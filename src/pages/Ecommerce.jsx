@@ -308,10 +308,17 @@ const Ecommerce = () => {
                             style={{ background: item.color }}
                             className="cursor-pointer hover:drop-shadow-xl text-white py-0.5 px-3 rounded-lg text-xs"
                             >
-                        {item.name}
+                            {item.name}
                         </p>
-                    ))}
-                </div>
+                        ))}
+                        </div>
+                    </div>
+                    <div className="mt-2">
+            <p className="text-md font-semibold mb-2">Leaders</p>
+            <div className="flex gap-4">
+              {medicalproBranding.leaders.map((item, index) => (
+                <img key={index} className="rounded-full w-8 h-8" src={item.image} alt="" />
+              ))}
             </div>
             </div>
         </div>
