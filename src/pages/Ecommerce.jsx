@@ -234,7 +234,7 @@ const Ecommerce = () => {
                     </div>
                 </div>
                 <div className='bg-white dark:texxt-gray-200 dark:bg-secondary-dark-bg p-6 rounded-2xl w-96 md:w-760' >
-                    <div className='flex justify-between'>
+                    <div className='flex justify-between items-center gap-2 mb-10'>
                         <p>Sales Reviews</p>
                     </div>
                 </div>
