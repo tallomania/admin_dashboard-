@@ -1,12 +1,12 @@
 import React from 'react';
-import { MdOutlineCancel, MdCancel } from 'react-icons/md';
+import {  MdCancel } from 'react-icons/md';
 
 import { Button } from '.';
 import { chatData } from '../data/dummy';
 import { useStateContext } from '../contexts/ContextProvider';
 
 const Chat = () => {
-    const { currentColor, setThemeSettings } = useStateContext();
+    const { currentColor, setChat} = useStateContext();
 
     return (
         <div className='nav-item absolute right-5 md:right-52 top-16 bg-white dark:bg-[#42464D] p-8 rounded-lg w-96 ' >
@@ -17,21 +17,21 @@ const Chat = () => {
                         className='text-white text-xs rounded p-1 px-2 bg-fuchsia-300 '
                         type='button'
                     >
-                        7 new
+                        6 new
                     </button>
                 </div>
-                <Button
-                    icon={<MdOutlineCancel />}
-                    color='rgb(153, 171, 180) '
+                {/* <Button
+                    icon={<MdCancel />}
+                    color='rgb(153, 171, 180)'
                     bgHoverColor='light-gray'
                     size='2xl'
                     borderRadius='50%'
-                />
+                /> */}
                 <button
                     type="button"
-                    onClick={() => setThemeSettings(false)}
                     style={{ color: "rgb(153, 171, 180", borderRadius: "50%" }}
-                    className="text-2xl p-3 hover:drop-shadow-xl hover:bg-light-gray"
+                    className="text-xl p-3 hover:drop-shadow-xl hover:bg-light-gray"
+                    onClick={() => setChat(false)}
                     >
                         <MdCancel />
                     </button>

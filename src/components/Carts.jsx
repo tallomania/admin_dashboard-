@@ -1,5 +1,5 @@
 import React from 'react';
-import { MdOutlineCancel } from 'react-icons/md';
+import { MdCancel } from 'react-icons/md';
 import { AiOutlinePlus, AiOutlineMinus } from 'react-icons/ai';
 
 import { useStateContext } from '../contexts/ContextProvider';
@@ -14,13 +14,19 @@ const Carts = () => {
             <div className="float-right h-screen  duration-1000 ease-in-out dark:text-gray-200 transition-all dark:bg-[#484B52] bg-white md:w-400 p-8">
                 <div className="flex justify-between items-center">
                     <p className="font-semibold text-lg">Shopping Cart</p>
-                    <Button
+                    <button
+                    type='button'
+                    style={{ color: currentColor }}
+                    className='text-xl rounded-full p-3 hover:bg-light-gray' >
+                    <MdCancel />
+                </button>
+                    {/* <Button
                         icon={<MdOutlineCancel />}
                         color="rgb(153, 171, 180)"
                         bgHoverColor="light-gray"
                         size="2xl"
                         borderRadius="50%"
-                    />
+                    /> */}
                 </div>
                 {cartData.map((item, index) => (
                     <div key={index}>
@@ -46,7 +52,7 @@ const Carts = () => {
                 <div className="mt-3 mb-3">
                     <div className="flex justify-between items-center">
                         <p className="text-gray-500 dark:text-gray-200">Sub Total</p>
-                        <p className="font-semibold">$890</p>
+                        <p className="font-semibold">$940</p>
                     </div>
                     <div className="flex justify-between items-center mt-3">
                         <p className="text-gray-500 dark:text-gray-200">VAT</p>
@@ -54,7 +60,7 @@ const Carts = () => {
                     </div>
                     <div className="flex justify-between items-center mt-3">
                         <p className="text-gray-500 dark:text-gray-200">Total</p>
-                        <p className="font-semibold">$980</p>
+                        <p className="font-semibold">$1030</p>
                     </div>
                 </div>
                 <div className="mt-5">

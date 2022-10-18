@@ -17,6 +17,7 @@ export const ContextProvider = ({ children }) => {
     const [currentMode, setCurrentMode] = useState('Light');
     const [themeSettings, setThemeSettings] = useState(false);
     const [chat, setChat] = useState(false);
+    const [notification, setNotification] = useState(false);
 
     const setMode = (e) => {
         setCurrentMode(e.target.value);
@@ -41,7 +42,7 @@ export const ContextProvider = ({ children }) => {
 
     return (
         <StateContext.Provider
-            value={{ activeMenu, setActiveMenu, isClicked, setIsClicked, handleClick, screenSize, setScreenSize, setColor, setMode, currentMode, currentColor, themeSettings, setThemeSettings, initialState, setCurrentColor, setCurrentMode, chat, setChat }}
+            value={{ activeMenu, setActiveMenu, isClicked, setIsClicked, handleClick, screenSize, setScreenSize, setColor, setMode, currentMode, currentColor, themeSettings, setThemeSettings, initialState, setCurrentColor, setCurrentMode, chat, setChat, notification, setNotification }}
         >
             {children}
         </StateContext.Provider>

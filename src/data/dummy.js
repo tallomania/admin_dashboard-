@@ -620,116 +620,116 @@ export const cartData = [
     {
         image:
             product5,
-        name: 'butterscotch ice-cream',
-        category: 'Milk product',
+        name: 'Red and White sneakers',
+        category: 'Shoe product',
         price: '$250',
     },
-    {
-        image:
-            product6,
-        name: 'Supreme fresh tomato',
-        category: 'Vegetable Item',
-        price: '$450',
-    },
+    // {
+    //     image:
+    //         product6,
+    //     name: 'Supreme fresh tomato',
+    //     category: 'Vegetable Item',
+    //     price: '$450',
+    // },
     {
         image:
             product7,
-        name: 'Red color candy',
-        category: 'Food Item',
-        price: '$190',
+        name: 'Gucci bag and slide',
+        category: 'Fashion Item',
+        price: '$390',
     },
     {
         image:
             product9,
-        name: 'Red color candy',
-        category: 'Food Item',
-        price: '$190',
+        name: 'White Nike sneakers',
+        category: 'Shoe product',
+        price: '$300',
     },
-    {
-        image:
-            product10,
-        name: 'Red color candy',
-        category: 'Food Item',
-        price: '$190',
-    },
-    {
-        image:
-            product11,
-        name: 'Red color candy',
-        category: 'Food Item',
-        price: '$190',
-    },
-    {
-        image:
-            product13,
-        name: 'Red color candy',
-        category: 'Food Item',
-        price: '$190',
-    },
-    {
-        image:
-            product12,
-        name: 'Red color candy',
-        category: 'Food Item',
-        price: '$190',
-    },
-    {
-        image:
-            product14,
-        name: 'Red color candy',
-        category: 'Food Item',
-        price: '$190',
-    },
-    {
-        image:
-            product16,
-        name: 'Red color candy',
-        category: 'Food Item',
-        price: '$190',
-    },
-    {
-        image:
-            product15,
-        name: 'Red color candy',
-        category: 'Food Item',
-        price: '$190',
-    },
-    {
-        image:
-            product18,
-        name: 'Red color candy',
-        category: 'Food Item',
-        price: '$190',
-    },
-    {
-        image:
-            product20,
-        name: 'Red color candy',
-        category: 'Food Item',
-        price: '$190',
-    },
-    {
-        image:
-            product22,
-        name: 'Red color candy',
-        category: 'Food Item',
-        price: '$190',
-    },
-    {
-        image:
-            product24,
-        name: 'Red color candy',
-        category: 'Food Item',
-        price: '$190',
-    },
+    // {
+    //     image:
+    //         product10,
+    //     name: 'Red color candy',
+    //     category: 'Food Item',
+    //     price: '$190',
+    // },
+    // {
+    //     image:
+    //         product11,
+    //     name: 'Red color candy',
+    //     category: 'Food Item',
+    //     price: '$190',
+    // },
+    // {
+    //     image:
+    //         product13,
+    //     name: 'Red color candy',
+    //     category: 'Food Item',
+    //     price: '$190',
+    // },
+    // {
+    //     image:
+    //         product12,
+    //     name: 'Red color candy',
+    //     category: 'Food Item',
+    //     price: '$190',
+    // },
+    // {
+    //     image:
+    //         product14,
+    //     name: 'Red color candy',
+    //     category: 'Food Item',
+    //     price: '$190',
+    // },
+    // {
+    //     image:
+    //         product16,
+    //     name: 'Red color candy',
+    //     category: 'Food Item',
+    //     price: '$190',
+    // },
+    // {
+    //     image:
+    //         product15,
+    //     name: 'Red color candy',
+    //     category: 'Food Item',
+    //     price: '$190',
+    // },
+    // {
+    //     image:
+    //         product18,
+    //     name: 'Red color candy',
+    //     category: 'Food Item',
+    //     price: '$190',
+    // },
+    // {
+    //     image:
+    //         product20,
+    //     name: 'Red color candy',
+    //     category: 'Food Item',
+    //     price: '$190',
+    // },
+    // {
+    //     image:
+    //         product22,
+    //     name: 'Red color candy',
+    //     category: 'Food Item',
+    //     price: '$190',
+    // },
+    // {
+    //     image:
+    //         product24,
+    //     name: 'Red color candy',
+    //     category: 'Food Item',
+    //     price: '$190',
+    // },
 ];
 
 export const chatData = [
     {
         image:
             avatar2,
-        message: 'Roman Joined the Team!',
-        desc: 'Congratulate him',
+        message: 'Debankz Joined the Team!',
+        desc: 'Congratulate her',
         time: '9:08 AM',
     },
     {
@@ -767,104 +767,104 @@ export const chatData = [
         desc: 'Salma sent you new message',
         time: '11:56 AM',
     },
-    {
-        image:
-            avatar4,
-        message: 'New Payment received',
-        desc: 'Check your earnings',
-        time: '4:39 AM',
-    },
-    {
-        image:
-            avatar4,
-        message: 'New Payment received',
-        desc: 'Check your earnings',
-        time: '4:39 AM',
-    },
-    {
-        image:
-            avatar6,
-        message: 'New Payment received',
-        desc: 'Check your earnings',
-        time: '4:39 AM',
-    },
-    {
-        image:
-            avatar3,
-        message: 'New Payment received',
-        desc: 'Check your earnings',
-        time: '4:39 AM',
-    },
-    {
-        image:
-            avatar4,
-        message: 'New Payment received',
-        desc: 'Check your earnings',
-        time: '4:39 AM',
-    },
-    {
-        image:
-            avatar,
-        message: 'Jolly completed tasks',
-        desc: 'Assign her new tasks',
-        time: '1:12 AM',
-    },
-    {
-        image:
-            avatar5,
-        message: 'Sammy posted new order',
-        desc: 'Process outstanding orders ',
-        time: '11:12 AM',
-    },
-    {
-        image:
-            avatar6,
-        message: 'Johnie leave the meeting',
-        desc: 'Give him the feedbacks',
-        time: '5:12 PM',
-    },
-    {
-        image:
-            avatar7,
-        message: 'Stephen completed tasks',
-        desc: 'Assign him new tasks',
-        time: '9:12 AM',
-    },
-    {
-        image:
-            avatar7,
-        message: 'Stephen completed tasks',
-        desc: 'Assign him new tasks',
-        time: '9:12 AM',
-    },
-    {
-        image:
-            avatar7,
-        message: 'Stephen completed tasks',
-        desc: 'Assign him new tasks',
-        time: '9:12 AM',
-    },
-    {
-        image:
-            avatar4,
-        message: 'Stephen completed tasks',
-        desc: 'Assign him new tasks',
-        time: '9:12 AM',
-    },
-    {
-        image:
-            avatar5,
-        message: 'Stephen completed tasks',
-        desc: 'Assign him new tasks',
-        time: '9:12 AM',
-    },
-    {
-        image:
-            avatar7,
-        message: 'Stephen completed tasks',
-        desc: 'Assign him new tasks',
-        time: '9:12 AM',
-    },
+    // {
+    //     image:
+    //         avatar4,
+    //     message: 'New Payment received',
+    //     desc: 'Check your earnings',
+    //     time: '4:39 AM',
+    // },
+    // {
+    //     image:
+    //         avatar4,
+    //     message: 'New Payment received',
+    //     desc: 'Check your earnings',
+    //     time: '4:39 AM',
+    // },
+    // {
+    //     image:
+    //         avatar6,
+    //     message: 'New Payment received',
+    //     desc: 'Check your earnings',
+    //     time: '4:39 AM',
+    // },
+    // {
+    //     image:
+    //         avatar3,
+    //     message: 'New Payment received',
+    //     desc: 'Check your earnings',
+    //     time: '4:39 AM',
+    // },
+    // {
+    //     image:
+    //         avatar4,
+    //     message: 'New Payment received',
+    //     desc: 'Check your earnings',
+    //     time: '4:39 AM',
+    // },
+    // {
+    //     image:
+    //         avatar,
+    //     message: 'Jolly completed tasks',
+    //     desc: 'Assign her new tasks',
+    //     time: '1:12 AM',
+    // },
+    // {
+    //     image:
+    //         avatar5,
+    //     message: 'Sammy posted new order',
+    //     desc: 'Process outstanding orders ',
+    //     time: '11:12 AM',
+    // },
+    // {
+    //     image:
+    //         avatar6,
+    //     message: 'Johnie leave the meeting',
+    //     desc: 'Give him the feedbacks',
+    //     time: '5:12 PM',
+    // },
+    // {
+    //     image:
+    //         avatar7,
+    //     message: 'Stephen completed tasks',
+    //     desc: 'Assign him new tasks',
+    //     time: '9:12 AM',
+    // },
+    // {
+    //     image:
+    //         avatar7,
+    //     message: 'Stephen completed tasks',
+    //     desc: 'Assign him new tasks',
+    //     time: '9:12 AM',
+    // },
+    // {
+    //     image:
+    //         avatar7,
+    //     message: 'Stephen completed tasks',
+    //     desc: 'Assign him new tasks',
+    //     time: '9:12 AM',
+    // },
+    // {
+    //     image:
+    //         avatar4,
+    //     message: 'Stephen completed tasks',
+    //     desc: 'Assign him new tasks',
+    //     time: '9:12 AM',
+    // },
+    // {
+    //     image:
+    //         avatar5,
+    //     message: 'Stephen completed tasks',
+    //     desc: 'Assign him new tasks',
+    //     time: '9:12 AM',
+    // },
+    // {
+    //     image:
+    //         avatar7,
+    //     message: 'Stephen completed tasks',
+    //     desc: 'Assign him new tasks',
+    //     time: '9:12 AM',
+    // },
 ];
 
 export const earningData = [
@@ -1371,11 +1371,15 @@ export const themeColors = [
     },
     {
         name: 'green-theme',
-        color: '#03C9D7',
+        color: '#13925b',
     },
     {
         name: 'purple-theme',
         color: '#7352FF',
+    },
+    {
+        color: '#9A8521',
+        name: 'gold-theme',
     },
     {
         name: 'red-theme',
