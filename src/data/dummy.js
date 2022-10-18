@@ -742,8 +742,8 @@ export const chatData = [
     {
         image:
             avatar5,
-        message: 'Roman Joined the Team!',
-        desc: 'Congratulate him',
+        message: 'New Payment received!',
+        desc: 'Check your earnings',
         time: '9:08 AM',
     },
     {
