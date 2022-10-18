@@ -735,30 +735,30 @@ export const chatData = [
     {
         image:
             avatar7,
-        message: 'Roman Joined the Team!',
-        desc: 'Congratulate him',
-        time: '9:08 AM',
+        message: 'Faith completed tasks!',
+        desc: 'Assign her new tasks',
+        time: '3:56 PM',
     },
     {
         image:
             avatar5,
         message: 'New Payment received!',
         desc: 'Check your earnings',
-        time: '9:08 AM',
+        time: '7:50 AM',
     },
     {
         image:
             avatar4,
-        message: 'Roman Joined the Team!',
+        message: 'Biggy Joined the Team!',
         desc: 'Congratulate him',
-        time: '9:08 AM',
+        time: '6:35 AM',
     },
     {
         image:
             avatar6,
-        message: 'Roman Joined the Team!',
-        desc: 'Congratulate him',
-        time: '9:08 AM',
+        message: 'Stephen posted new order!',
+        desc: 'Process outstanding orders',
+        time: '12:48 AM',
     },
     {
         image:
@@ -766,6 +766,13 @@ export const chatData = [
         message: 'New message received',
         desc: 'Salma sent you new message',
         time: '11:56 AM',
+    },
+    {
+        image:
+            avatar,
+        message: 'Sammy left the meeting',
+        desc: 'Give her the feedbacks',
+        time: '5:12 PM',
     },
     // {
     //     image:
